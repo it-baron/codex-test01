@@ -14,6 +14,8 @@ Because dependencies are not installed in this environment, run the following co
 ```bash
 # install backend dependencies
 cd backend && npm install
+# install the default Express adapter
+npm install @nestjs/platform-express
 # run the backend
 npm start
 ```
